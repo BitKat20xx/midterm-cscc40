@@ -144,6 +144,6 @@ if __name__ == "__main__":
         for action in solution:
             current_state = current_state.perform_action(action)
             print(f"Action: {action}, "
-                  f"New State: {current_state}")
+                  f"\nNew State: {current_state}")
     else:
         print("No solution found.")
